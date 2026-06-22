@@ -63,6 +63,26 @@ p{
 
 /* Navbar */
 
+@media (max-width: 768px){
+
+    .navbar{
+        flex-direction: column;
+    }
+
+    .gallery-grid{
+        grid-template-columns: 1fr;
+    }
+
+    .hero h1{
+        font-size: 2rem;
+    }
+
+    .hero-buttons{
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+
 .navbar{
     position:fixed;
     top:0;
