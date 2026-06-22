@@ -381,6 +381,22 @@ footer{
     transform:translateY(-5px);
 }
 
+.insta-btn{
+    background:linear-gradient(
+        45deg,
+        #F58529,
+        #DD2A7B,
+        #8134AF,
+        #515BD4
+    );
+    color:white;
+}
+
+.insta-btn:hover{
+    transform:translateY(-5px);
+    box-shadow:0 10px 25px rgba(221,42,123,.4);
+}
+
 .address-card{
     background:white;
 
