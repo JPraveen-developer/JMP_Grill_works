@@ -1217,9 +1217,9 @@ footer p{
     transform:translateY(-5px);
 }
 
-/* ===== MOBILE ===== */
 
-@media(max-width:768px){
+
+/* @media(max-width:768px){
 
     .hero h1{
         font-size:42px;
@@ -1241,5 +1241,138 @@ footer p{
     .nav-links{
         flex-wrap:wrap;
         justify-content:center;
+    }
+} */
+
+/* ==========================
+   FINAL RESPONSIVE FIX
+========================== */
+
+@media screen and (max-width:768px){
+
+    .container{
+        padding:0 15px;
+    }
+
+    /* Navbar */
+
+    .navbar{
+        flex-direction:column !important;
+        gap:15px;
+        padding:15px !important;
+    }
+
+    .logo{
+        font-size:22px !important;
+        text-align:center;
+    }
+
+    .nav-links{
+        display:flex !important;
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:12px;
+    }
+
+    .nav-links a{
+        font-size:14px;
+    }
+
+    /* Hero */
+
+    .hero{
+        min-height:auto !important;
+        padding:130px 20px 80px !important;
+    }
+
+    .hero-logo{
+        width:140px !important;
+    }
+
+    .hero h1{
+        font-size:32px !important;
+        line-height:1.2;
+    }
+
+    .hero p{
+        font-size:16px !important;
+    }
+
+    .hero-buttons{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .btn{
+        width:220px;
+        text-align:center;
+    }
+
+    /* About */
+
+    .about-grid{
+        grid-template-columns:1fr !important;
+        text-align:center;
+    }
+
+    .stats{
+        grid-template-columns:1fr !important;
+    }
+
+    /* Services */
+
+    .services-grid{
+        grid-template-columns:1fr !important;
+    }
+
+    /* Gallery */
+
+    .gallery-grid{
+        display:grid !important;
+        grid-template-columns:1fr !important;
+        gap:20px !important;
+    }
+
+    .gallery-card{
+        width:100% !important;
+    }
+
+    .gallery-card img{
+        height:250px !important;
+    }
+
+    /* Contact */
+
+    .contact-actions{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .contact-btn{
+        width:250px;
+        text-align:center;
+    }
+
+    .address-card{
+        padding:25px;
+    }
+
+    .map-box iframe{
+        height:300px !important;
+    }
+
+    /* Footer */
+
+    footer{
+        padding:20px 10px;
+    }
+
+    .footer-content h2{
+        font-size:22px;
+    }
+
+    .footer-links{
+        flex-direction:column;
+        gap:10px;
     }
 }
