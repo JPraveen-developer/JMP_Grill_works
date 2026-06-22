@@ -377,12 +377,14 @@ footer{
     background:#0B2D6B;
     color:white;
 }
+
+.instagram-btn{
+    background:#D4AF37;
+    color:white;
+}
+
 .contact-btn:hover{
     transform:translateY(-5px);
-}
-.instagram-btn{
-    background:#E1306C;
-    color:white;
 }
 .address-card{
     background:white;
