@@ -63,7 +63,7 @@ p{
 
 /* Navbar */
 
-@media (max-width: 768px){
+/* @media (max-width: 768px){
 
     .navbar{
         flex-direction: column;
@@ -122,10 +122,6 @@ p{
     color:var(--gold);
 }
 
-/* ==========================
-   MOBILE RESPONSIVE
-========================== */
-
 @media (max-width: 768px){
 
     /* Navbar */
@@ -152,7 +148,6 @@ p{
         font-size:14px;
     }
 
-    /* Hero */
 
     .hero{
         padding:120px 20px 80px;
@@ -175,7 +170,7 @@ p{
         align-items:center;
     }
 
-    /* About */
+   
 
     .about-grid{
         grid-template-columns:1fr;
@@ -186,13 +181,12 @@ p{
         grid-template-columns:1fr;
     }
 
-    /* Services */
 
     .services-grid{
         grid-template-columns:1fr;
     }
 
-    /* Gallery */
+   
 
     .gallery-grid{
         grid-template-columns:1fr;
@@ -207,7 +201,6 @@ p{
         font-size:22px;
     }
 
-    /* Contact */
 
     .contact-actions{
         flex-direction:column;
@@ -228,7 +221,6 @@ p{
         height:300px;
     }
 
-    /* Footer */
 
     .footer-content{
         padding:0 15px;
@@ -245,7 +237,7 @@ p{
 
 }
 
-/* Hero */
+
 
 .hero{
     height:100vh;
@@ -279,7 +271,7 @@ p{
     color:white;
     font-size:1.3rem;
     margin-bottom:40px;
-}
+} */
 
 /* Buttons */
 
