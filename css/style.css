@@ -378,6 +378,10 @@ footer{
     color:white;
 }
 
+.insta-btn{
+    background:#D4AF37(
+    color:white;
+}
 .contact-btn:hover{
     transform:translateY(-5px);
 }
